@@ -1,0 +1,12 @@
+[package]
+name = "halp"
+version = "0.1.0"
+authors = ["Michael Lamparski <diagonaldevice@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+mac = { path = './mac' }
+mac-impl = { path = './mac-impl' }
+
+[workspace]
+

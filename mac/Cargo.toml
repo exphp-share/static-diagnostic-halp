@@ -1,0 +1,12 @@
+[package]
+name = "mac"
+version = "0.1.0"
+authors = ["Michael Lamparski <diagonaldevice@gmail.com>"]
+edition = "2018"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+static_assertions = "1.1"
+mac-impl = {path = '../mac-impl'}
